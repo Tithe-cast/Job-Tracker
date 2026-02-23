@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Job Application Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    
+    <div class="container">
+
+    <h1>Job Application Tracker</h1>
+    <div class="stats">
+      <div class="stat-card">
+        <div class="stat-label">Total</div>
+        <div class="stat-value total" id="count-total">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Interview</div>
+        <div class="stat-value interview" id="count-interview">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Rejected</div>
+        <div class="stat-value rejected" id="count-rejected">0</div>
+      </div>
+    </div>
+    <div class="section-header">
+      <h2 class="section-title">Available Jobs</h2>
+      <span class="job-count" id="jobs-count-label">0 jobs</span>
+    </div>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="All">All</button>
+      <button class="tab-btn" data-tab="Interview">Interview</button>
+      <button class="tab-btn" data-tab="Rejected">Rejected</button>
+    </div>
+    <div id="cards-container"></div>
+
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
