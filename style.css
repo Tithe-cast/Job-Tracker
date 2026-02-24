@@ -21,7 +21,7 @@
   --radius: 12px;
 }
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -48,7 +48,7 @@ body {
   50%       { transform: translateY(-8px); }
 }
 h1 {
-  font-family: 'DM Serif Display', serif;
+  font-family:"Open Sans", serif;
   font-size: clamp(26px, 5vw, 38px);
   color: var(--text);
   margin-bottom: 28px;
