@@ -5,7 +5,7 @@
 }
 
 :root {
-  --bg: #f0f4f8;
+  --bg: #09111a;
   --surface: #ffffff;
   --border: #e2e8f0;
   --text:  rgb(11, 11, 84);
@@ -274,7 +274,7 @@ h1 {
 
 .empty-icon {
   font-size: 56px;
-  display: white;
+  display:black;
   margin-bottom: 16px;
   animation: float 3s ease-in-out infinite;
 }
