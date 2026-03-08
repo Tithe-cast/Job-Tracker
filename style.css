@@ -22,7 +22,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;;
-  background: var(--bg);
+  background: black;
   color: var(--text);
   min-height: 100vh;
   padding: 40px 20px 60px;
@@ -31,6 +31,7 @@ body {
 .container {
   max-width: 900px;
   margin: 0 auto;
+  background-color: beige;
   animation: fadeUp 0.5s ease both;
 }
 @keyframes fadeUp {
