@@ -274,7 +274,7 @@ h1 {
 
 .empty-icon {
   font-size: 56px;
-  display: block;
+  display: white;
   margin-bottom: 16px;
   animation: float 3s ease-in-out infinite;
 }
